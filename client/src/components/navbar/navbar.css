@@ -1,0 +1,19 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 1rem 1rem;
+}
+.nav-icon{
+margin-left: 2rem;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+& a {
+    color: black;
+ }
+}
